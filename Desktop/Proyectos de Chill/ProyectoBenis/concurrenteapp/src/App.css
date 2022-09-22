@@ -2,8 +2,33 @@
   text-align: center;
 }
 
-Tablas {
+.tabla1 {
+  -ms-flex-align: start;
   width: 50%;
+  background-color: aquamarine;
+}
+
+.tabla2{
+  -ms-flex-align: start;
+  width: 50%;
+  background-color:rgb(233, 174, 240);
+}
+
+
+
+.titulo {
+  width: 100%;
+  align-items: center;
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 4px;
 }
 
 
